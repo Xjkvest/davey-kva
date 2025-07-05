@@ -7,3 +7,6 @@
 
 [context.branch-deploy.environment]
   STACKBIT_PREVIEW = "true"
+
+[identity]
+  enabled = true
