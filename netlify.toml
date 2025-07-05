@@ -1,3 +1,9 @@
 [build]
   command = "npm run build"
   publish = ".next"
+
+[context.deploy-preview.environment]
+  STACKBIT_PREVIEW = "true"
+
+[context.branch-deploy.environment]
+  STACKBIT_PREVIEW = "true"
